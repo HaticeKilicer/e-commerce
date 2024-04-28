@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-
+@ToString
 @Table(name = "products",
        schema = "ecommerce",
         uniqueConstraints = {
